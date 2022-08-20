@@ -1,5 +1,5 @@
 #container {
-  height: 50vh;
+  height: calc(100vh - 160px);
   display: flex;
   border: 0.1px solid black;
 
@@ -16,6 +16,7 @@
 #aside {
   background-color: green;
   flex: 1;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
